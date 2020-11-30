@@ -53,6 +53,7 @@ header{
 	background-image: url("img/arcade.jpg");
 	display: grid;
 	align-items: center;
+	padding-top: 8rem;
 }
 
 header div{
@@ -85,7 +86,8 @@ article{
 
 article img{
 	width: 100%;
-	height: auto;
+	height: 70%;
+	object-fit: cover;
 }
 
 img:hover{
@@ -103,7 +105,7 @@ footer{
 	text-align: center;
 }
 
-:not(footer) > img{
+:not(footer,article) > img{
 	width:100%;
 	height: auto;
 }
@@ -162,12 +164,32 @@ p{
 	color: white;
 }
 
+#acerca{
+	display: flex;
+}
+
 #acerca p{
 	float: left;
 	width: 50%;
+	padding: 1rem;
 }
 
 #acerca img{
+	float: right;
+	width: 50%;
+}
+
+#contacto{
+	display: flex;
+}
+
+#contacto p{
+	float: left;
+	width: 50%;
+	padding: 1rem;
+}
+
+#contacto iframe{
 	float: right;
 	width: 50%;
 }
@@ -231,6 +253,18 @@ hr{
 	}
 
 	article{
+		width: 100%;
+	}
+
+	#acerca{
+		flex-direction: column;
+	}
+
+	#contacto{
+		flex-direction: column;
+	}
+
+	#acerca p, #acerca img, #contacto p, #contacto iframe{
 		width: 100%;
 	}
 }
