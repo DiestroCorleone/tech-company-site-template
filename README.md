@@ -5,7 +5,7 @@ Cool, modern template for a tech company website. Created using grid and some co
 #### Features
 
 - Responsive design (CSS Grid)
-- Collapsible navbar with a hamburger menu (pure CSS)
+- Collapsible navbar with a hamburger and dropdown menu (pure CSS)
 - Use of linear gradients for a dynamic look
 
 #### Demo Website
