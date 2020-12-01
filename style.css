@@ -42,10 +42,48 @@ nav{
 	background-image: linear-gradient(to right, black, #140023);
 }
 
-nav a:hover{
-	background-color: indigo;
-	color: black;
+nav ul{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+nav a{
+	text-decoration: none;
+	font-weight: bold;
+	color: magenta;
+}
+
+nav li{	
 	padding: 1.5rem;
+}
+
+nav li:hover{
+	background-color: indigo;
+}
+
+nav li:first-of-type, nav li:nth-child(2){
+	display: none;
+}
+
+.dropdown{
+	display: none;
+	background-color: black;
+	color: inherit;
+}
+
+.dropdown p{
+	padding: 1rem;
+}
+
+.dropdown p:hover{
+	background-color: indigo;
+	color: black;	
+}
+
+nav li:hover > .dropdown{
+	display: block;
+	position: absolute;
 }
 
 header{
@@ -126,24 +164,8 @@ footer a:hover{
 	color: indigo;
 }
 
-nav, header, section, #acerca, aside, #contacto, footer{
+header, section, #acerca, aside, #contacto, footer{
 	padding: 1.5rem;
-}
-
-nav ul{
-	display: flex;
-	justify-content: space-between;
-	list-style-type: none;
-}
-
-nav a{
-	text-decoration: none;
-	font-weight: bold;
-	color: magenta;
-}
-
-nav li:first-of-type, nav li:nth-child(2){
-	display: none;
 }
 
 h1{
