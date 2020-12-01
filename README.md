@@ -1,18 +1,18 @@
 # tech-company-site-template
 
-Cool modern template for tech company website. Using grid and some cool gradients. All the fonts belong to its respective owners, and were taken from the 1001freefonts website.
+Cool, modern template for a tech company website. Created using grid and some cool gradients. All fonts belong to their respective owners, and were taken from the [1001freefonts](https://www.1001freefonts.com/) website.
 
 #### Features
 
 - Responsive design (CSS Grid)
-- Collapsable navbar with hamburger menu (pure CSS)
-- Use of linear gradients for a less plain look
+- Collapsible navbar with a hamburger menu (pure CSS)
+- Use of linear gradients for a dynamic look
 
-#### Demo
+#### Demo Website
 
 https://diestrocorleone.github.io/tech-company-site-template/
 
-_This is a work in progress, and will be updated._
+*This is a work in progress, and will be updated.*
 
 
 
