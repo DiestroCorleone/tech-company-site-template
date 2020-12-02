@@ -257,11 +257,7 @@ hr{
 	nav:target li:first-of-type{
 		display: none;
 	}
-
-	nav a:hover{
-		padding: 0.3rem;
-	}
-
+	
 	h1{
 		font-size: 4.5rem;
 	}
