@@ -70,6 +70,7 @@ nav li:first-of-type, nav li:nth-child(2){
 	display: none;
 	background-color: black;
 	color: inherit;
+	margin-top: 1rem;
 }
 
 .dropdown p{
@@ -79,11 +80,6 @@ nav li:first-of-type, nav li:nth-child(2){
 .dropdown p:hover{
 	background-color: indigo;
 	color: black;	
-}
-
-nav li:hover > .dropdown{
-	display: block;
-	position: absolute;
 }
 
 header{
@@ -233,6 +229,13 @@ hr{
 	box-shadow: 0px 3px 10px black;
 }
 
+@media screen and (min-width: 801px){
+	nav li:hover > .dropdown{
+		display: block;
+		position: absolute;
+	}
+}
+
 @media screen and (max-width: 800px){
 	body{
 		grid-template-rows: auto auto auto auto 1fr auto;
@@ -257,7 +260,7 @@ hr{
 	nav:target li:first-of-type{
 		display: none;
 	}
-	
+
 	h1{
 		font-size: 4.5rem;
 	}
@@ -284,6 +287,11 @@ hr{
 
 	#acerca p, #acerca img, #contacto p, #contacto iframe{
 		width: 100%;
+	}
+
+	.dropdown{
+		display:list-item;
+		margin-left: 2rem;
 	}
 }
 
