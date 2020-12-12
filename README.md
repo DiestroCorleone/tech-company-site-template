@@ -2,6 +2,11 @@
 
 Cool, modern template for a tech company website. Created using grid and some cool gradients. All fonts belong to their respective owners, and were taken from the [1001freefonts](https://www.1001freefonts.com/) website.
 
+#### Contributors
+
+- [Diestro Corleone](https://github.com/DiestroCorleone/)
+- [Aditya Raute](https://github.com/dumbcoder7)
+
 #### Features
 
 - Responsive design (CSS Grid)
